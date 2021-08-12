@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component snapshot 1`] = `
+.c0 {
+  padding: 5px;
+}
+
+<div>
+  <input
+    class="c0"
+    name="surname"
+    placeholder="type your surname"
+    value="Pupkin"
+  />
+</div>
+`;
