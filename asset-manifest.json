@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/annalise.ai-test/static/js/main.05faa716.chunk.js",
-    "main.js.map": "/annalise.ai-test/static/js/main.05faa716.chunk.js.map",
+    "main.js": "/annalise.ai-test/static/js/main.8fd48e9f.chunk.js",
+    "main.js.map": "/annalise.ai-test/static/js/main.8fd48e9f.chunk.js.map",
     "runtime-main.js": "/annalise.ai-test/static/js/runtime-main.5f4eeaa1.js",
     "runtime-main.js.map": "/annalise.ai-test/static/js/runtime-main.5f4eeaa1.js.map",
     "static/js/2.10ca7b74.chunk.js": "/annalise.ai-test/static/js/2.10ca7b74.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.5f4eeaa1.js",
     "static/js/2.10ca7b74.chunk.js",
-    "static/js/main.05faa716.chunk.js"
+    "static/js/main.8fd48e9f.chunk.js"
   ]
 }
