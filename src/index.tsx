@@ -10,7 +10,7 @@ import ImagesSearch from './templates/ImagesSearch'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ThemeProvider theme={theme}>
         <ImagesSearch />
       </ThemeProvider>
