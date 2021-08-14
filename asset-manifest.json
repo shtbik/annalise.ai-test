@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/annalise.ai-test/static/js/main.b8cdf9c6.chunk.js",
-    "main.js.map": "/annalise.ai-test/static/js/main.b8cdf9c6.chunk.js.map",
+    "main.js": "/annalise.ai-test/static/js/main.d496a65f.chunk.js",
+    "main.js.map": "/annalise.ai-test/static/js/main.d496a65f.chunk.js.map",
     "runtime-main.js": "/annalise.ai-test/static/js/runtime-main.5f4eeaa1.js",
     "runtime-main.js.map": "/annalise.ai-test/static/js/runtime-main.5f4eeaa1.js.map",
-    "static/js/2.3cad3b2d.chunk.js": "/annalise.ai-test/static/js/2.3cad3b2d.chunk.js",
-    "static/js/2.3cad3b2d.chunk.js.map": "/annalise.ai-test/static/js/2.3cad3b2d.chunk.js.map",
+    "static/js/2.5f12a61a.chunk.js": "/annalise.ai-test/static/js/2.5f12a61a.chunk.js",
+    "static/js/2.5f12a61a.chunk.js.map": "/annalise.ai-test/static/js/2.5f12a61a.chunk.js.map",
     "index.html": "/annalise.ai-test/index.html",
-    "static/js/2.3cad3b2d.chunk.js.LICENSE.txt": "/annalise.ai-test/static/js/2.3cad3b2d.chunk.js.LICENSE.txt"
+    "static/js/2.5f12a61a.chunk.js.LICENSE.txt": "/annalise.ai-test/static/js/2.5f12a61a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5f4eeaa1.js",
-    "static/js/2.3cad3b2d.chunk.js",
-    "static/js/main.b8cdf9c6.chunk.js"
+    "static/js/2.5f12a61a.chunk.js",
+    "static/js/main.d496a65f.chunk.js"
   ]
 }
