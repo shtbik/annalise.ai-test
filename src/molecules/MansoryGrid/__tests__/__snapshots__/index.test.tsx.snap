@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MansoryGrid component snapshot 1`] = `
+.c0 {
+  -webkit-column-count: 6;
+  column-count: 6;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+}
+
+.c0 > * {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  overflow: hidden;
+  -webkit-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.c1 {
+  margin: 10px;
+}
+
+<div>
+  <div
+    class="c0 c1"
+  >
+    <div>
+      1
+    </div>
+    <div>
+      2
+    </div>
+    <div>
+      3
+    </div>
+    <div>
+      4
+    </div>
+  </div>
+</div>
+`;
