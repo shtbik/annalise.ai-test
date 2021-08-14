@@ -36,7 +36,8 @@
     "start": "yarn --cwd server start & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy-server": "git subtree push --prefix server heroku master"
   },
   "eslintConfig": {
     "extends": [
