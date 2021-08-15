@@ -72,6 +72,9 @@ The task was a create images search box and I've decided to use [Unsplash API](h
 
 ## TODO
 
+- [ ] add skeleton for the image component
+- [ ] make a clean bottom edge for mansory grid
+- [ ] cross browser testing
 - [ ] improve loading state to decrease rerenders
 - [ ] increase test coverage
 - [ ] add aliases for src/\*\* forlders
