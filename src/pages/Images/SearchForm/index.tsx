@@ -9,15 +9,20 @@ export interface ISearchForm extends StyledComponent {
   onSubmit: (event: FormEvent<HTMLFormElement>) => void
   onReset: (event: FormEvent<HTMLFormElement>) => void
   name: string
+  disabled?: boolean
 }
 
-const SearchForm: FC<ISearchForm> = ({ name, onSubmit, onReset, className = '' }) => {
+const SearchForm: FC<ISearchForm> = ({ name, onSubmit, onReset, disabled = false, className = '' }) => {
   return (
     <form onSubmit={onSubmit} onReset={onReset} className={className}>
       <StyledInput name={name} required placeholder="Type your query..." />
 
-      <Button type="submit">Search</Button>
-      <StyledResetButton type="reset">Random!</StyledResetButton>
+      <Button aria-disabled={disabled} type="submit">
+        Search
+      </Button>
+      <StyledResetButton aria-disabled={disabled} type="reset">
+        Random!
+      </StyledResetButton>
     </form>
   )
 }

@@ -2,24 +2,24 @@ import { FC } from 'react'
 
 import Button from '../../../atoms/Button'
 
-import { StyledWrapper, StyledNextButton } from './styled.index'
+import { StyledNextButton } from './styled.index'
 
 interface IPagination {
   onPrev?: () => void
   onNext?: () => void
-  loading?: boolean
+  disabled?: boolean
 }
 
-export const Pagination: FC<IPagination> = ({ onPrev, onNext, loading = false }) => {
+export const Pagination: FC<IPagination> = ({ onPrev, onNext, disabled = false }) => {
   return (
-    <StyledWrapper aria-disabled={loading}>
-      <Button onClick={onPrev} disabled={!onPrev}>
+    <div>
+      <Button onClick={onPrev} disabled={!onPrev} aria-disabled={disabled}>
         Prev Page
       </Button>
-      <StyledNextButton onClick={onNext} disabled={!onNext}>
+      <StyledNextButton onClick={onNext} disabled={!onNext} aria-disabled={disabled}>
         Next Page
       </StyledNextButton>
-    </StyledWrapper>
+    </div>
   )
 }
 

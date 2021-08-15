@@ -21,12 +21,11 @@ type TImagesResponseState = {
   error: boolean
 }
 
-const initialState = { data: [], error: false, meta: { page: 1 } }
 const PER_PAGE = 10
 const fieldName = 'query'
+const initialState = { data: [], error: false, meta: { page: 1 } }
 
 const MemoizedHeader = memo(Header)
-const MemoizedStyledSearchForm = memo(StyledSearchForm)
 
 const Images: FC = () => {
   const [imagesRes, setImages] = useState<TImagesResponseState>(initialState)
@@ -121,11 +120,11 @@ const Images: FC = () => {
   return (
     <div>
       <MemoizedHeader />
-      <MemoizedStyledSearchForm name={fieldName} onSubmit={handleSubmit} onReset={handleLoadRandom} />
+      <StyledSearchForm name={fieldName} onSubmit={handleSubmit} onReset={handleLoadRandom} disabled={loading} />
 
       {meta.query && meta.total ? (
         <Pagination
-          loading={loading}
+          disabled={loading}
           onPrev={meta.page > 1 ? handleLoadPrev : undefined}
           onNext={meta.page < (meta.total_pages || 0) ? handleLoadNext : undefined}
         />

@@ -4,8 +4,9 @@ import Pagination from '../Pagination'
 
 describe('Images page - Pagination', () => {
   it('loading state', () => {
-    const { container } = render(<Pagination loading />)
-    expect(container.firstChild).toHaveAttribute('aria-disabled', 'true')
+    const { container } = render(<Pagination disabled />)
+    const buttons = container.getElementsByTagName('button')
+    expect(buttons[0]).toHaveAttribute('aria-disabled', 'true')
   })
 
   it('disabled state', () => {
