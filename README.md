@@ -59,9 +59,25 @@ Follow up questions when interviewing the candidate
 - Ask about code readability
 - What would you improve? How do you envision it.
 
-# Getting Started with Create React App
+# Getting Start
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The task was a create images search box and I've decided to use [Unsplash API](https://unsplash.com/documentation#creating-a-developer-account). It's free and easy to connect but has a [limit](https://unsplash.com/documentation#rate-limiting) of 50 requests per hour for applications in demo mode.
+
+0. create `.env` file in `/server` folder with your `USNPLASH_ACCESS_KEY`
+1. `yarn install`
+2. `yarn start`
+3. open [http://localhost:3000](http://localhost:3000)
+
+## TODO
+
+- [ ] improve loading state to decrease rerenders
+- [ ] increase test coverage
+- [ ] add aliases for src/\*\* forlders
+- [ ] add pre-commit hook with husky + lint-staged
+- [ ] add pre-push hook with tests, typechecking and test coverage badges to readme.md
+- [ ] could move types definition to separate files
 
 ## Available Scripts
 
@@ -89,12 +105,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## TODO
-
-- [ ] add aliases for src/\*\*
-- [ ] add loading state for buttons
-- [ ] could move types definition to separate files
-- [ ] increase test coverage
-- [ ] add pre-commit hook with husky + lint-staged
-- [ ] add pre-push hook with tests, typechecking and test coverage badges to readme.md
