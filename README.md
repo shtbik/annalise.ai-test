@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Results
-The `master` branch it's pure Create React App code only. I've created one more branch with all related changes to make the process of checking easier and more clearly. Check out the links below to start with:
+The `master` branch it's pure Create React App code only. I've created feature branch with all related changes to make the process of checking easier and more clearly. Check out the links below to start with:
 
 - [Task](https://github.com/shtbik/annalise.ai-test/tree/feature/image-search-box#what-do-we-want-to-get-from-the-interview)
 - [Branch](https://github.com/shtbik/annalise.ai-test/tree/feature/image-search-box)
